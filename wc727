@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>William Caraballo Jr. | Operations Leader</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background: #0b0b0b;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 120px 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #111, #000);
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.sub {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.stat p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+nav {
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section {
+    padding: 80px 20px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.6s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+button {
+    padding: 14px 22px;
+    background: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+}
+
+@media(max-width: 768px) {
+    h1 { font-size: 36px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>William Caraballo Jr.</h1>
+    <div class="sub">Senior Logistics & Operations Leader</div>
+
+    <div class="stats">
+        <div class="stat">
+            <h2>10+</h2>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat">
+            <h2>3</h2>
+            <p>States Managed</p>
+        </div>
+        <div class="stat">
+            <h2>45+</h2>
+            <p>Carrier Network</p>
+        </div>
+        <div class="stat">
+            <h2>300+</h2>
+            <p>Calls / Shift</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="fade">
+<div class="container">
+<h2>About</h2>
+<p>
+I lead high-volume logistics operations and keep systems running under pressure.
+I build structure, enforce accountability, and eliminate inefficiencies across transportation networks.
+</p>
+</div>
+</section>
+
+<section id="experience" class="fade">
+<div class="container">
+<h2>Experience</h2>
+
+<div class="grid">
+<div class="card">
+<h3>Continental Auto Parts</h3>
+<p>Led tri-state logistics. Managed 10 drivers and 45+ carriers. Controlled dispatch and delivery execution across high-volume operations.</p>
+</div>
+
+<div class="card">
+<h3>Western Express</h3>
+<p>Handled 300+ calls per shift. Solved breakdowns and routing issues in real time while maintaining operational flow.</p>
+</div>
+
+<div class="card">
+<h3>Public Safety Leadership</h3>
+<p>Supervised 20+ personnel. Directed EMS and emergency response operations for 10,000+ residents.</p>
+</div>
+
+<div class="card">
+<h3>Security & Compliance</h3>
+<p>Experienced in surveillance systems, regulatory enforcement, and crisis management across multiple environments.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="impact" class="fade">
+<div class="container">
+<h2>Impact</h2>
+
+<div class="grid">
+<div class="card">
+<p><strong>Full Visibility</strong><br>Maintained near-perfect delivery compliance across dispersed carrier networks.</p>
+</div>
+
+<div class="card">
+<p><strong>Efficiency</strong><br>Optimized routing and load planning to reduce delays and costs.</p>
+</div>
+
+<div class="card">
+<p><strong>Scalability</strong><br>Managed high-volume logistics operations across multiple states.</p>
+</div>
+
+<div class="card">
+<p><strong>Leadership</strong><br>Led teams and operations under pressure with consistent results.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="fade">
+<div class="container">
+<h2>Contact</h2>
+
+<p>Email: Caraballowilliam727@gmail.com</p>
+<p>Phone: 570-807-1470</p>
+
+<button onclick="contactMe()">Email Me</button>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 William Caraballo Jr.</p>
+</footer>
+
+<script>
+function contactMe() {
+    window.location.href = "mailto:Caraballowilliam727@gmail.com";
+}
+
+// Fade-in animation
+const faders = document.querySelectorAll('.fade');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+    });
+});
+
+faders.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
